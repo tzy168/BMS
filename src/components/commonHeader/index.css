@@ -1,0 +1,15 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgray;
+}
+
+.header-container .button-menu {
+    transition: background 0.3s ease, transform 0.3s ease; /* Add transition for hover effect */
+}
+
+.header-container .button-menu:hover {
+    background: #294d96; /* Change background color on mouse hover */
+    transform: scale(1.1); /* Add floating effect on mouse hover */
+}

@@ -1,0 +1,105 @@
+.home img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 40px;;
+}
+
+.home .user-info .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.home .user-info .access {
+    font-size: 14px;
+    color: #999;
+}
+.home .user {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.home .login-info p {
+    line-height: 28px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.home .login-info p span {
+    color: #666666;
+    margin-left: 60px;
+}
+
+.home .num{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.home .num .ant-card{
+    width: 33%;
+   
+}
+
+.home .num .ant-card-body{
+    display: flex;
+    padding: 10px 25px;
+}
+.home .num .icon-box {
+    width: 50px;
+    height: 50px;
+    background-color: #f0f0f0; /* 淡灰色背景 */
+    border-radius: 8px; /* 圆角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* 过渡动画 */
+    color:rgb(0, 14, 14) /* 图标颜色 */
+
+}
+
+/* 鼠标悬停效果 */
+.home .num .icon-box:hover {
+    transform: translateY(-5px); /* 向上移动 */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 更大的阴影 */
+}
+
+.home .num .detail {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 15px;
+}
+
+.home .num .detail .name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.home .num .detail .txt {
+    font-size: 14px;
+    color: #999;
+}
+
+
+/* 图标大小 */
+.home .anticon{
+    font-size: 18px;
+}
+
+.home .graph{
+    display: flex;
+    margin-top: 20px;
+}
+.home{
+    margin: 10px;
+}

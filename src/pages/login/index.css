@@ -1,0 +1,39 @@
+.login-container {
+    width: 350px;
+    border: 1px solid #eaeaea;
+    margin: 180px auto;
+    padding: 35px 35px 15px 35px;
+    
+    border-radius: 15px;
+    box-sizing: border-box;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.login-container:hover {
+    box-shadow: 0 0 35px #cac6c6;
+}
+
+.login-container .login_title {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #505458;
+    font-size: 20px;
+}
+
+.login-container .el-input {
+    width: 198px;
+}
+
+.login-container .login-button {
+    text-align: center;
+}
+.login-wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/images/屏幕截图\ 2024-09-13\ 005730.png');
+    background-size: cover;
+    background-position: center;
+}
